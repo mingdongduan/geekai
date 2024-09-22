@@ -1,7 +1,30 @@
-# GeekAI
+# TalkAI
 > 根据[《生成式人工智能服务管理暂行办法》](https://www.cac.gov.cn/2023-07/13/c_1690898327029107.htm)的要求，请勿对中国地区公众提供一切未经备案的生成式人工智能服务。
 
-**GeekAI** 基于 AI 大语言模型 API 实现的 AI 助手全套开源解决方案，自带运营管理后台，开箱即用。集成了 OpenAI, Azure,
+<div align="center">
+
+_本项目是基于[geekai](https://github.com/yangjian102621/geekai)二次开发而来的_
+
+<p align="center">
+  <a href="https://raw.githubusercontent.com/MartialBE/one-api/main/LICENSE">
+    <img src="https://img.shields.io/github/license/MartialBE/one-api?color=brightgreen" alt="license">
+  </a>
+  <a href="https://github.com/users/MartialBE/packages/container/package/one-api">
+    <img src="https://img.shields.io/badge/docker-ghcr.io-blue" alt="docker">
+  </a>
+  <a href="https://hub.docker.com/r/martialbe/one-api">
+    <img src="https://img.shields.io/badge/docker-dockerHub-blue" alt="docker">
+  </a>
+  <a href="https://goreportcard.com/report/github.com/MartialBE/one-api">
+    <img src="https://goreportcard.com/badge/github.com/MartialBE/one-api" alt="GoReportCard">
+  </a>
+</p>
+
+**请不要和原版混用，因为新增功能，数据库与原版不兼容**
+
+</div>
+
+**Talk AI** 基于 AI 大语言模型 API 实现的 AI 助手全套开源解决方案，自带运营管理后台，开箱即用。集成了 OpenAI, Azure,
 ChatGLM,讯飞星火，文心一言等多个平台的大语言模型。集成了 MidJourney 和 Stable Diffusion AI绘画功能。
 
 主要特性：
@@ -44,12 +67,8 @@ ChatGLM,讯飞星火，文心一言等多个平台的大语言模型。集成了
 
 ## 项目地址
 
-* Github 地址：https://github.com/yangjian102621/geekai
-* 码云地址：https://gitee.com/blackfox/geekai
+* Github 地址：https://github.com/mingdongduan/talk-ai
 
-## 客户端下载
-
-目前已经支持 Win/Linux/Mac/Android 客户端，下载地址为：https://github.com/yangjian102621/geekai/releases/tag/v3.1.2
 
 ## TODOLIST
 
@@ -58,8 +77,6 @@ ChatGLM,讯飞星火，文心一言等多个平台的大语言模型。集成了
 * [ ] 微信支付功能
 
 ## 项目文档
-
-最新的部署视频教程：[https://www.bilibili.com/video/BV1Cc411t7CX/](https://www.bilibili.com/video/BV1Cc411t7CX/)
 
 详细的部署和开发文档请参考 [**GeekAI 文档**](https://docs.geekai.me)。
 
@@ -83,10 +100,3 @@ ChatGLM,讯飞星火，文心一言等多个平台的大语言模型。集成了
 * opt: 性能优化
 * chore: 一些不涉及到功能变动的小提交，比如修改文字表述，修改注释等
 
-## 打赏
-
-如果你觉得这个项目对你有帮助，并且情况允许的话，可以请作者喝杯咖啡，非常感谢你的支持～
-
-![打赏](docs/imgs/donate.png)
-
-![Star History Chart](https://api.star-history.com/svg?repos=yangjian102621/geekai&type=Date)
